@@ -1,250 +1,337 @@
 <!DOCTYPE html>
-
 <html lang="zn-cn">
-
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Keep Team">
     
-    <title>~我的第一篇博客~</title>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>
+        
+        Keep Theme
+    </title>
     
-    
+<link rel="stylesheet" href="/css/style.css">
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <meta name="description" content="我的编程学习心得在学编程时，难免有枯燥乏味的时候，但当你换一种心态，也许就没那么痛苦了。  我一开始，是带着转专业的目的去学习，是抱着一种功利的心态去学习，这样，在学习的过程中，虽然会让我持续下去，但是，结果确是身心俱疲。甚至这种学习状态持续几天，会让我产生一种厌恶感，对编程的厌恶感。学习编程的人都知道，这一行是需要终身学习的，你不能厌恶，就算厌恶，也必须学下去，不然呢很快就会被淘汰。这世上不缺程">
-<meta property="og:type" content="article">
-<meta property="og:title" content="~我的第一篇博客~">
-<meta property="og:url" content="http://example.com/2022/04/14/%E6%88%91%E7%9A%84%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/index.html">
-<meta property="og:site_name" content="~我的第一篇博客~">
-<meta property="og:description" content="我的编程学习心得在学编程时，难免有枯燥乏味的时候，但当你换一种心态，也许就没那么痛苦了。  我一开始，是带着转专业的目的去学习，是抱着一种功利的心态去学习，这样，在学习的过程中，虽然会让我持续下去，但是，结果确是身心俱疲。甚至这种学习状态持续几天，会让我产生一种厌恶感，对编程的厌恶感。学习编程的人都知道，这一行是需要终身学习的，你不能厌恶，就算厌恶，也必须学下去，不然呢很快就会被淘汰。这世上不缺程">
-<meta property="og:locale" content="zn_CN">
-<meta property="og:image" content="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313647.jpeg">
-<meta property="og:image" content="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313949.jpeg">
-<meta property="article:published_time" content="2022-04-14T15:12:09.793Z">
-<meta property="article:modified_time" content="2022-04-14T15:19:07.890Z">
-<meta property="article:author" content="Jeephan">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313647.jpeg">
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-    />
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"
-    />
+    <link rel="shortcut icon" href="/images/logo.svg">
     
-    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1650120250138">
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1650120250138">
-    <link rel="stylesheet" href="/css/style.css?v=1650120250138">
-     
-    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zn-cn"};
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
 <meta name="generator" content="Hexo 6.1.0"></head>
 
-<body class="mdui-drawer-body-left">
+
+<body>
+<div class="progress-bar-container">
     
-    <div id="nexmoe-background">
-        <div class="nexmoe-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg)"></div>
-        <div class="mdui-appbar mdui-shadow-0">
-            <div class="mdui-toolbar">
-                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
-                <div class="mdui-toolbar-spacer"></div>
-                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-                <a href="/" title="Jeephan" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="Jeephan"></a>
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                Keep Theme
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="nexmoe-header">
-        <div class="nexmoe-drawer mdui-drawer" id="drawer">
-    <div class="nexmoe-avatar mdui-ripple">
-        <a href="/" title="Jeephan">
-            <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="Jeephan" alt="Jeephan">
-        </a>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
     </div>
-    <div class="nexmoe-count">
-        <div><span>Articles</span>4</div>
-        <div><span>Tags</span>0</div>
-        <div><span>Categories</span>0</div>
-    </div>
-    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"></span>
+        </div>
+
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
-            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
-            <div class="mdui-list-item-content">
-                回到首页
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
-            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
-            <div class="mdui-list-item-content">
-                关于博客
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/PY.html" title="我的朋友">
-            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
-            <div class="mdui-list-item-content">
-                我的朋友
-            </div>
-        </a>
-        
-    </div>
-    <aside id="nexmoe-sidebar">
-    
-    <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-search">
-         
-            <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
-                <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
-            </form>
-         
-    </div>
-</div>
-    
-    <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-social">
-        <a class="mdui-ripple" href="https://jq.qq.com/?_wv=1027&k=5CfKHun" target="_blank" mdui-tooltip="{content: 'QQ群'}" style="color: rgb(249, 174, 8);background-color: rgba(249, 174, 8, .1);">
-            <i class="nexmoefont icon-QQ"></i>
-        </a><a class="mdui-ripple" href="https://space.bilibili.com/20238211" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
-            <i class="nexmoefont icon-bilibili"></i>
-        </a><a class="mdui-ripple" href="https://github.com/nexmoe/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
-            <i class="nexmoefont icon-github"></i>
-        </a>
-    </div>
-</div>
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Keep Team</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-04-14 23:12:09</span>
+        <span class="mobile">2022-04-14 23:12</span>
+    </span>
     
     
 
     
     
     
-</aside>
-    <div class="nexmoe-copyright">
-        &copy; 2022 Jeephan
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a><script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    </div>
-</div><!-- .nexmoe-drawer -->
-    </div>
-    <div id="nexmoe-content">
-        <div class="nexmoe-primary">
-            <div class="nexmoe-post">
-
-  <article>
-      
-          <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
-              <img data-fancybox="gallery" src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" alt="" loading="lazy">
-              <h1></h1>
-          </div>
-      
-      
-      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
-    <a><i class="nexmoefont icon-calendar-fill"></i>2022年04月14日</a>
+    
 </div>
 
-      <h1 id="我的编程学习心得"><a href="#我的编程学习心得" class="headerlink" title="我的编程学习心得"></a>我的编程学习心得</h1><p>在学编程时，难免有枯燥乏味的时候，但当你换一种心态，也许就没那么痛苦了。</p>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h1 id="我的编程学习心得"><a href="#我的编程学习心得" class="headerlink" title="我的编程学习心得"></a>我的编程学习心得</h1><p>在学编程时，难免有枯燥乏味的时候，但当你换一种心态，也许就没那么痛苦了。</p>
 <p> 我一开始，是带着转专业的目的去学习，是抱着一种功利的心态去学习，这样，在学习的过程中，虽然会让我持续下去，但是，结果确是身心俱疲。甚至这种学习状态持续几天，会让我产生一种厌恶感，对编程的厌恶感。学习编程的人都知道，这一行是需要终身学习的，你不能厌恶，就算厌恶，也必须学下去，不然呢很快就会被淘汰。这世上不缺程序员，缺的是高级程序员。</p>
 <p> 最近，我边复习时，看着学习路线，突然有了一种豁然开朗的感觉。我把学习编程的路线，看成了小时候最喜欢玩的游戏的人物升级路线，学习就是在打怪，没写完一个章节，就像打过了一个关卡，而且每一关都有一个大boss，当你击败他时，你就能获得他的力量，他就好像归你所有，成为你的副将(助手)，这样，当我们学的越深入，我们也就越强大，遇到以前打过的那些小怪，他们都那么不堪一击！</p>
-<p><img data-fancybox="gallery" src="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313647.jpeg" alt="img" data-caption="img" loading="lazy"></p>
-<p><img data-fancybox="gallery" src="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313949.jpeg" alt="img" data-caption="img" loading="lazy"></p>
+<p><img src="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313647.jpeg" alt="img"></p>
+<p><img src="https://gitee.com/hjp111/typora-picture/raw/master/https://gitee.com/hjp111/typora-picture/202204142313949.jpeg" alt="img"></p>
 <p> 其实，人生何尝不是如此，人的一生都是在学习，当你回首往事的时候，你会发现，曾经认为跨不过去的那些槛，现在看来都是鸡毛蒜皮的小事。为什么以前老师们常说，你现在看一本书，和你十几二十几年后看，感觉会很不一样，因为我们的阅历、见识都增长了，这就是学习留下的痕迹，他们都成为了我们身体的一部分。</p>
 <p> 编程学习的过程，很多人都有这样的烦恼，学了就忘。可是有多少人是能够真正过目不忘的呢？我想并没有。那些看起来学的很轻松的人，他们只不过是敲了一遍又一遍的代码，看了一遍又一遍的文档，孰能生巧罢了。我们小学、初中、高中学的知识，你又有多少是现在还记得的呢？谁还记得你上个月的今天吃的是什么呢？所以，忘记是很正常的，他们最终都成为了养分，滋养你的身心。让你变得更强大！</p>
 <p>共勉</p>
 
-  </article>
+        </div>
 
-  
-      
-    <div class="nexmoe-post-copyright">
-        <strong>Author：</strong>Jeephan<br>
-        <strong>Link：</strong><a href="http://example.com/2022/04/14/%E6%88%91%E7%9A%84%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/" title="http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;04&#x2F;14&#x2F;%E6%88%91%E7%9A%84%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;04&#x2F;14&#x2F;%E6%88%91%E7%9A%84%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97&#x2F;</a><br>
         
-            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/2022/04/14/JavaSE%20%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2022/04/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
         
     </div>
-
-
-  
-  
-  <div class="nexmoe-post-meta nexmoe-rainbow">
-    
-    
 </div>
 
-  
-      <div class="nexmoe-post-footer">
-          <section class="nexmoe-comment">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.css">
-<div id="gitalk"></div>
-<script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script>
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-        clientID: '80b2453b6d5f37ad6225',
-        clientSecret: '43e99fa852795c9a7b3eb924b2558c64b84bbdeb',
-        id: window.location.pathname,
-        repo: 'nexmoe.github.io',
-        owner: 'nexmoe',
-        admin: 'nexmoe'
-    })
-    gitalk.render('gitalk')
-</script>
-</section>
-      </div>
-  
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Keep Team</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+    </ul>
 </div>
-            <div class="nexmoe-post-right">
-              <div class="nexmoe-fixed">
-                  <div class="nexmoe-tool"> 
-                    
-                      
-                    
-                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
-                  </div>
-              </div>
-            </div>
+
         </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
     </div>
-     
-    <div id="nexmoe-search-space">
-        <div class="search-container">
-            <div class="search-header">
-                <div class="search-input-container">
-                    <input class="search-input" type="text" placeholder="Search" oninput="sinput();">
-                </div>
-                <a class="search-close" onclick="sclose();">×</a>
-            </div>
-            <div class="search-body"></div>
-        </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
 
- 
-
-<script async src="/js/app.js?v=1650120250138"></script>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
-<script>
-	$(".justified-gallery").justifiedGallery({
-		rowHeight: 160,
-		margins: 10,
-	});
-</script>
+    <div class="image-viewer-container">
+    <img src="">
+</div>
 
 
     
 
+</main>
 
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+
+
+
+<div class="post-scripts">
+    
+</div>
 
 
 
 </body>
-
 </html>
