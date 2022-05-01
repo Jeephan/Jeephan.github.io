@@ -9,8 +9,6 @@
     
     <title>
         
-            Archive: 2022/4 |
-        
         Keep Theme
     </title>
     
@@ -69,7 +67,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/archives"
                             >
                                 ARCHIVES
@@ -103,7 +101,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/archives">ARCHIVES</a>
                 </li>
             
@@ -123,59 +121,84 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="archive-container ">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"></span>
+        </div>
+
         
-<div class="archive-list-container">
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="http://img.duoziwang.com/2018/17/05090939670499.jpg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Keep Team</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-05-01 10:28:34</span>
+        <span class="mobile">2022-05-01 10:28</span>
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2022</span>
-                <span class="archive-year-post-count">[5]</span>
-            </div>
-            <ul class="article-list">
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/05/01/%E7%90%86%E8%A7%A3%E5%90%91%E4%B8%8A%E8%BD%AC%E5%9E%8B%E5%92%8C%E5%90%91%E4%B8%8B%E8%BD%AC%E5%9E%8B%EF%BC%88%E5%AF%B9%E4%BA%8E%E5%88%9D%E5%AD%A6%E8%80%85%E7%90%86%E8%A7%A3%E4%BD%BF%E7%94%A8%EF%BC%89/"
-                        ></a>
-                        <span class="article-date">05-01</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/04/15/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8D%E9%99%90%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8C%87%E5%8D%97/"
-                        ></a>
-                        <span class="article-date">04-15</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/04/14/JavaSE%20%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB/"
-                        ></a>
-                        <span class="article-date">04-14</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/04/14/%E6%88%91%E7%9A%84%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"
-                        ></a>
-                        <span class="article-date">04-14</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/04/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"
-                        ></a>
-                        <span class="article-date">04-10</span>
-                    </li>
-                
-            </ul>
-        </section>
+    
+
+    
+    
+    
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h1 id="理解向上转型和向下转型（对于初学者理解使用）"><a href="#理解向上转型和向下转型（对于初学者理解使用）" class="headerlink" title="理解向上转型和向下转型（对于初学者理解使用）"></a>理解向上转型和向下转型（对于初学者理解使用）</h1><p>向上转型后 对象只能使用子类和父类共有的方法，子类的属性不能被使用，即属性不覆盖，覆盖的是方法</p>
+<p>向下转型后，对象可以调用子类的所有方法和属性</p>
+<p>向上转型的意义：<br>简单来说就是为了能够使用子类中已经重写(扩展或者说优化)了的方法。记住是重写的方法。<br>就好比如：你的旧手机的系统不行了你要更新系统，使用更多的优化后的东西。</p>
+<p>向下转型的意义：<br>向上转型是向下转型的基础，注意注意注意：向下转型是因为向上转型之后，子类与父类不共同都有的方法不能使用，所以我要转回来，我要使用父类中没有但是子类拥有的方法<br>就好比如，手机新的系统有些功能没有了，夸张来说比如手机的WIFI功能没有了，那我的用旧的手机系统才能连WIFI。所以我要转回去 例子都是为了大家更好理解，可能会有不恰当的地方，可以评论区告诉我那没理解，或者是各位大神有更好的理解方法，非常愿意接受大家的方法</p>
+<p>意义这里我说的可能会很多，因为个人原因，如果我不知道它的用处那么我学他干啥 我就是这样想的，必须知道其原因，不知道大家是不是和我一样</p>
+
+        </div>
+
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2022/04/15/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8D%E9%99%90%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8C%87%E5%8D%97/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
     </div>
 </div>
+
 
                 
             </div>
@@ -205,6 +228,23 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -251,6 +291,14 @@
 
     </div>
 
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%90%86%E8%A7%A3%E5%90%91%E4%B8%8A%E8%BD%AC%E5%9E%8B%E5%92%8C%E5%90%91%E4%B8%8B%E8%BD%AC%E5%9E%8B%EF%BC%88%E5%AF%B9%E4%BA%8E%E5%88%9D%E5%AD%A6%E8%80%85%E7%90%86%E8%A7%A3%E4%BD%BF%E7%94%A8%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">理解向上转型和向下转型（对于初学者理解使用）</span></a></li></ol>
+    </div>
+</div>
+        </aside>
     
 
     <div class="image-viewer-container">
@@ -316,6 +364,14 @@
 
 
 <div class="post-scripts">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
     
 </div>
 
