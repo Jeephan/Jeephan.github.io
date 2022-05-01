@@ -1598,6 +1598,27 @@ pre .javascript .function {
   transform: scale(0.72);
   transform-origin: left;
 }
+.header-wrapper .header-content .left .logo-image {
+  width: 46px;
+  height: 46px;
+  margin-right: 8px;
+}
+@media (max-width: 780px) {
+  .header-wrapper .header-content .left .logo-image {
+    width: 41.4px;
+    height: 41.4px;
+  }
+}
+@media (max-width: 500px) {
+  .header-wrapper .header-content .left .logo-image {
+    width: 36.800000000000004px;
+    height: 36.800000000000004px;
+  }
+}
+.header-wrapper .header-content .left .logo-image img {
+  border-radius: 6px;
+  width: 100%;
+}
 .header-wrapper .header-content .left .logo-title {
   font-size: 2rem;
   font-weight: bold;
@@ -2051,7 +2072,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  background: url("https://img0.baidu.com/it/u=1434579201,186351076&fm=253&fmt=auto&app=138&f=GIF?w=700&h=393") center center/cover no-repeat;
+  background: url("https://pics3.baidu.com/feed/37d12f2eb9389b50420de8b43e0d9adbe6116e20.png?token=50d937e5b624692d7471e37c6f9c00a1") center center/cover no-repeat;
   background-position-y: 70px;
 }
 @media (max-width: 780px) {
