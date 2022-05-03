@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zn-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Jeephan">
+    
+    <title>
+        
+        Jeephan的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://gitee.com/hjp111/typora-picture/raw/master/202205020811128.png">
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zn-cn"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":false},"style":{"primary_color":"rgb(0,204,255)","avatar":"https://gitee.com/hjp111/typora-picture/raw/master/202205020806847.png","favicon":"https://gitee.com/hjp111/typora-picture/raw/master/202205020811128.png","article_img_align":"center","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_img":"https://gitee.com/hjp111/typora-picture/raw/master/202205020012316.gif","description":"永远相信美好的事情即将发生！"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://gitee.com/hjp111/typora-picture/raw/master/202205012355640.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                Jeephan的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"></span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="https://gitee.com/hjp111/typora-picture/raw/master/202205020806847.png">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Jeephan</span>
+                        
+                            <span class="author-label">Lv2</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-05-03 17:24:33</span>
+        <span class="mobile">2022-05-03 17:24</span>
+    </span>
+    
+    
+
+    
+    
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h1 id="Java基础编程题（上）"><a href="#Java基础编程题（上）" class="headerlink" title="Java基础编程题（上）"></a>Java基础编程题（上）</h1><h2 id="一、阶乘求和-sum-x3D-1-1-x2F-2！-1-x2F-3！-…-1-x2F-20"><a href="#一、阶乘求和-sum-x3D-1-1-x2F-2！-1-x2F-3！-…-1-x2F-20" class="headerlink" title="一、阶乘求和 sum &#x3D; 1 + 1&#x2F;2！+ 1&#x2F;3！+ … 1&#x2F;20!"></a>一、阶乘求和 sum &#x3D; 1 + 1&#x2F;2！+ 1&#x2F;3！+ … 1&#x2F;20!</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//阶乘求和 sum = 1 + 1/2！+ 1/3！+ ... 1/20!</span></span><br><span class="line">        <span class="comment">//方法一</span></span><br><span class="line">        <span class="type">double</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span>(i&lt;=<span class="number">20</span>)&#123;</span><br><span class="line">            n=n*i;</span><br><span class="line">            i++;</span><br><span class="line">            sum = sum + (<span class="type">double</span>)<span class="number">1</span>/n;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//方法二</span></span><br><span class="line">        <span class="keyword">while</span> (n &lt;= <span class="number">20</span>) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">1</span>; j &lt;= n; j++) &#123;</span><br><span class="line">                a *= j;</span><br><span class="line">            &#125;</span><br><span class="line">            sum += (<span class="type">double</span>)<span class="number">1</span> / a;</span><br><span class="line">            n++;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(sum);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">//方法三</span></span><br><span class="line">		<span class="comment">//main方法中</span></span><br><span class="line">        <span class="keyword">while</span> (i &lt;= <span class="number">5</span>) &#123;</span><br><span class="line">            sum +=(<span class="type">double</span>) <span class="number">1</span>/F(i);</span><br><span class="line">            i++;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(sum);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">F</span><span class="params">(<span class="type">int</span> i)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(i == <span class="number">1</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> F(i - <span class="number">1</span>) * i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//1.7182818346494484</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="二、打印菱形"><a href="#二、打印菱形" class="headerlink" title="二、打印菱形"></a>二、打印菱形</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//打印菱形</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">6</span>; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; <span class="number">5</span>-i; j++) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot; &quot;</span>);		<span class="comment">//在每行开头加上一定数量的空格，满足i+j=4</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; i; j++) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot;* &quot;</span>);<span class="comment">//每个*号后要加上空格</span></span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">4</span>; i &gt; <span class="number">0</span>; i--) &#123;		<span class="comment">//倒着输出</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">5</span>-i; j &gt; <span class="number">0</span>; j--) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i; j &gt; <span class="number">0</span>; j--) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot;* &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">    * </span></span><br><span class="line"><span class="comment">   * * </span></span><br><span class="line"><span class="comment">  * * * </span></span><br><span class="line"><span class="comment"> * * * * </span></span><br><span class="line"><span class="comment">* * * * * </span></span><br><span class="line"><span class="comment"> * * * * </span></span><br><span class="line"><span class="comment">  * * * </span></span><br><span class="line"><span class="comment">   * * </span></span><br><span class="line"><span class="comment">    * </span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="三、求最大共约数"><a href="#三、求最大共约数" class="headerlink" title="三、求最大共约数"></a>三、求最大共约数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Scanner</span> <span class="variable">input</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in); <span class="comment">//创建扫描器对象用于接受控制台输入</span></span><br><span class="line"></span><br><span class="line">System.out.println(<span class="string">&quot;输入两个正整数&quot;</span>);</span><br><span class="line"><span class="type">int</span> <span class="variable">integer1</span> <span class="operator">=</span> input.nextInt();</span><br><span class="line"><span class="type">int</span> <span class="variable">integer2</span> <span class="operator">=</span> input.nextInt();</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="variable">min</span> <span class="operator">=</span> Math.min(integer1, integer2); <span class="comment">//调用数学函数获取两个整数的最小值</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> min; i &gt;= <span class="number">1</span>; i--) &#123;</span><br><span class="line">    <span class="keyword">if</span> (integer1 % i == <span class="number">0</span> &amp;&amp; integer2 % i == <span class="number">0</span>) &#123; <span class="comment">//如果两个数同时被i整除，则找到了最大公约数</span></span><br><span class="line">        System.out.println(<span class="string">&quot;最大公约数&quot;</span> + i);</span><br><span class="line">        <span class="keyword">break</span>; <span class="comment">//使用break语句结束循环</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="四、每行打印奇数个图案"><a href="#四、每行打印奇数个图案" class="headerlink" title="四、每行打印奇数个图案"></a>四、每行打印奇数个图案</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">20</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; a; j+=<span class="number">2</span>) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">20</span>-j; i++) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">1</span>; k &lt; j; k++) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot;* &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">                  * </span></span><br><span class="line"><span class="comment">                * * * </span></span><br><span class="line"><span class="comment">              * * * * * </span></span><br><span class="line"><span class="comment">            * * * * * * * </span></span><br><span class="line"><span class="comment">          * * * * * * * * * </span></span><br><span class="line"><span class="comment">        * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">      * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">    * * * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">  * * * * * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">21</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> a; j &gt; <span class="number">0</span>; j-=<span class="number">2</span>) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">21</span>-j; i &gt; <span class="number">0</span>; i--) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> j; k &gt; <span class="number">0</span>; k--) &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot;* &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">* * * * * * * * * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">  * * * * * * * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">    * * * * * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">      * * * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">        * * * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">          * * * * * * * * * * * </span></span><br><span class="line"><span class="comment">            * * * * * * * * * </span></span><br><span class="line"><span class="comment">              * * * * * * * </span></span><br><span class="line"><span class="comment">                * * * * * </span></span><br><span class="line"><span class="comment">                  * * * </span></span><br><span class="line"><span class="comment">                    * </span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="五、计算一段英文的大小写个数，及其他个数"><a href="#五、计算一段英文的大小写个数，及其他个数" class="headerlink" title="五、计算一段英文的大小写个数，及其他个数"></a>五、计算一段英文的大小写个数，及其他个数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"> <span class="type">int</span> <span class="variable">countA</span> <span class="operator">=</span> <span class="number">0</span>;     <span class="comment">//大写字母个数</span></span><br><span class="line"> <span class="type">int</span> <span class="variable">counta</span> <span class="operator">=</span> <span class="number">0</span>;     <span class="comment">//小写字母个数</span></span><br><span class="line"> <span class="type">int</span> <span class="variable">count</span> <span class="operator">=</span> <span class="number">0</span>;      <span class="comment">//其他符号个数</span></span><br><span class="line"> <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line"> System.out.println(<span class="string">&quot;请输入一段英文：&quot;</span>);</span><br><span class="line"> <span class="type">String</span> <span class="variable">s</span> <span class="operator">=</span> sc.nextLine();</span><br><span class="line"></span><br><span class="line"> <span class="type">char</span>[] a = <span class="keyword">new</span> <span class="title class_">char</span>[s.length()];</span><br><span class="line"> <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; a.length; i++) &#123;</span><br><span class="line">     a[i] = s.charAt(i);</span><br><span class="line">     <span class="keyword">if</span> (<span class="number">65</span> &lt;= a[i] &amp;&amp; a[i] &lt;= <span class="number">90</span>) &#123;     <span class="comment">//A在unicode中是65，Z是90</span></span><br><span class="line">         countA++;</span><br><span class="line">     &#125;<span class="keyword">else</span> <span class="keyword">if</span>(a[i] &gt;= <span class="number">97</span> &amp;&amp; a[i] &lt;= <span class="number">122</span>)&#123;<span class="comment">//a在unico中是97，z是122</span></span><br><span class="line">         counta++;</span><br><span class="line">     &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">         count++;</span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br><span class="line"> System.out.println(countA);</span><br><span class="line"> System.out.println(counta);</span><br><span class="line"> System.out.println(count);</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">HelloWorld!</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">2</span></span><br><span class="line"><span class="comment">8</span></span><br><span class="line"><span class="comment">1</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="六、输出三个数的最大最小值"><a href="#六、输出三个数的最大最小值" class="headerlink" title="六、输出三个数的最大最小值"></a>六、输出三个数的最大最小值</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner</span><br><span class="line">    </span><br><span class="line"><span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">System.out.println(<span class="string">&quot;请输入三个数字：&quot;</span>);</span><br><span class="line"><span class="type">double</span> <span class="variable">a</span> <span class="operator">=</span> sc.nextDouble();</span><br><span class="line"><span class="type">double</span> <span class="variable">b</span> <span class="operator">=</span> sc.nextDouble();</span><br><span class="line"><span class="type">double</span> <span class="variable">c</span> <span class="operator">=</span> sc.nextDouble();</span><br><span class="line"><span class="type">double</span> <span class="variable">d</span> <span class="operator">=</span> a &gt; b ? a : b;</span><br><span class="line"><span class="type">double</span> <span class="variable">max</span> <span class="operator">=</span> d &gt; c ? d : c;</span><br><span class="line"><span class="type">double</span> <span class="variable">e</span> <span class="operator">=</span> a &lt; b ? a : b;</span><br><span class="line"><span class="type">double</span> <span class="variable">min</span> <span class="operator">=</span> e &lt; c ? e : c;</span><br><span class="line">System.out.println(<span class="string">&quot;最大值是：&quot;</span>+max);</span><br><span class="line">System.out.println(<span class="string">&quot;最小值是：&quot;</span>+min);</span><br></pre></td></tr></table></figure>
+
+<h2 id="七、求成绩，分等级"><a href="#七、求成绩，分等级" class="headerlink" title="七、求成绩，分等级"></a>七、求成绩，分等级</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">System.out.println(<span class="string">&quot;请输入分数：&quot;</span>);</span><br><span class="line"><span class="type">int</span> <span class="variable">scores</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line"><span class="keyword">switch</span> (scores/<span class="number">10</span>) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">9</span>:</span><br><span class="line">    <span class="keyword">case</span> <span class="number">10</span>:</span><br><span class="line">        System.out.println(<span class="string">&quot;A&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">8</span>:</span><br><span class="line">        System.out.println(<span class="string">&quot;B&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">7</span>:</span><br><span class="line">        System.out.println(<span class="string">&quot;C&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">6</span>:</span><br><span class="line">        System.out.println(<span class="string">&quot;D&quot;</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        System.out.println(<span class="string">&quot;不及格！&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="八、冒泡排序五个数"><a href="#八、冒泡排序五个数" class="headerlink" title="八、冒泡排序五个数"></a>八、冒泡排序五个数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] arr = &#123;<span class="number">5</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">2</span>,<span class="number">1</span>&#125;;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;				<span class="comment">//嵌套for循环</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; arr.length-i-<span class="number">1</span>; j++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (arr[j] &gt; arr[j+<span class="number">1</span>]) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">temp</span> <span class="operator">=</span> arr[j];</span><br><span class="line">            arr[j] = arr[j+<span class="number">1</span>];</span><br><span class="line">            arr[j+<span class="number">1</span>] = temp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">    System.out.println(arr[i]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//1 2 3 4 5</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="九、求出素数"><a href="#九、求出素数" class="headerlink" title="九、求出素数"></a>九、求出素数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">loop:<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">2</span>; i &lt;=<span class="number">100</span> ; i++) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">2</span>; j &lt; i; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(i%j==<span class="number">0</span>)&#123;</span><br><span class="line">                <span class="keyword">continue</span> loop;  <span class="comment">//使用标签，跳出外层循环，过滤掉非素数</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    System.out.println(i);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="十、判断素数"><a href="#十、判断素数" class="headerlink" title="十、判断素数"></a>十、判断素数</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//判断一个数是不是素数</span></span><br><span class="line"><span class="comment">//方法一		</span></span><br><span class="line"><span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">System.out.println(<span class="string">&quot;请输入一个整数：&quot;</span>);</span><br><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line"><span class="keyword">if</span> (a == <span class="number">2</span>) &#123;</span><br><span class="line">    System.out.println(a + <span class="string">&quot;是素数&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">2</span>; i &lt; a; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (a % i == <span class="number">0</span>) &#123;</span><br><span class="line">        System.out.println(a + <span class="string">&quot;不是素数&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span>;		<span class="comment">//过滤掉其他数，结束方法</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(a+<span class="string">&quot;是素数&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二		使用封装方法</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入一个整数：&quot;</span>);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line">        System.out.println(P(n));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">P</span><span class="params">(<span class="type">int</span> a)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(a==<span class="number">2</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">2</span>; i &lt; a; i++) &#123;			<span class="comment">//过滤其他数</span></span><br><span class="line">            <span class="keyword">if</span>(a%i==<span class="number">0</span>)&#123;			</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2022/05/02/%E8%87%AA%E5%B7%B1%E6%80%BB%E7%BB%93%E7%9A%84%E4%B8%80%E5%BC%A0%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Jeephan</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B%E9%A2%98%EF%BC%88%E4%B8%8A%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">Java基础编程题（上）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C-sum-x3D-1-1-x2F-2%EF%BC%81-1-x2F-3%EF%BC%81-%E2%80%A6-1-x2F-20"><span class="nav-number">1.1.</span> <span class="nav-text">一、阶乘求和 sum &#x3D; 1 + 1&#x2F;2！+ 1&#x2F;3！+ … 1&#x2F;20!</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%89%93%E5%8D%B0%E8%8F%B1%E5%BD%A2"><span class="nav-number">1.2.</span> <span class="nav-text">二、打印菱形</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E6%B1%82%E6%9C%80%E5%A4%A7%E5%85%B1%E7%BA%A6%E6%95%B0"><span class="nav-number">1.3.</span> <span class="nav-text">三、求最大共约数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%AF%8F%E8%A1%8C%E6%89%93%E5%8D%B0%E5%A5%87%E6%95%B0%E4%B8%AA%E5%9B%BE%E6%A1%88"><span class="nav-number">1.4.</span> <span class="nav-text">四、每行打印奇数个图案</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E8%AE%A1%E7%AE%97%E4%B8%80%E6%AE%B5%E8%8B%B1%E6%96%87%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%86%99%E4%B8%AA%E6%95%B0%EF%BC%8C%E5%8F%8A%E5%85%B6%E4%BB%96%E4%B8%AA%E6%95%B0"><span class="nav-number">1.5.</span> <span class="nav-text">五、计算一段英文的大小写个数，及其他个数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E8%BE%93%E5%87%BA%E4%B8%89%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%80%BC"><span class="nav-number">1.6.</span> <span class="nav-text">六、输出三个数的最大最小值</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E6%B1%82%E6%88%90%E7%BB%A9%EF%BC%8C%E5%88%86%E7%AD%89%E7%BA%A7"><span class="nav-number">1.7.</span> <span class="nav-text">七、求成绩，分等级</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AB%E3%80%81%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E4%BA%94%E4%B8%AA%E6%95%B0"><span class="nav-number">1.8.</span> <span class="nav-text">八、冒泡排序五个数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B9%9D%E3%80%81%E6%B1%82%E5%87%BA%E7%B4%A0%E6%95%B0"><span class="nav-number">1.9.</span> <span class="nav-text">九、求出素数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E3%80%81%E5%88%A4%E6%96%AD%E7%B4%A0%E6%95%B0"><span class="nav-number">1.10.</span> <span class="nav-text">十、判断素数</span></a></li></ol></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+
+</body>
+</html>
