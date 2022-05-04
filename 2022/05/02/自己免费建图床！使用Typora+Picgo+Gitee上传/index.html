@@ -214,20 +214,45 @@
 
         
             <div class="comment-container">
-                <div class="comments-container">
-    <div id="comment-anchor"></div>
-    <div class="comment-area-title">
-        <i class="fas fa-comments">&nbsp;评论</i>
-    </div>
-    
+                if (hexo-config('comment.enable') == true && hexo-config('comment.use') != "") {
+  if (hexo-config('comment.use') == "valine") {
+    @require "./valine.styl";
 
-        
-            
+  } else if (hexo-config('comment.use') == "gitalk") {
+    @require "./gitalk.styl";
 
+  } else if (hexo-config('comment.use') == "twikoo") {
+    @require "./twikoo.styl";
+  }
+}
 
-        
-    
-</div>
+.comments-container {
+  display: inline-block;
+  margin-top: $component-spacing-value;
+  width: 100%;
+
+  #comment-anchor {
+    width: 100%;
+    height: 10px;
+  }
+
+  .comment-area-title {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1.38rem;
+    color: var(--default-text-color);
+
+    i {
+      color: var(--default-text-color);
+    }
+
+    +keep-tablet() {
+      margin: 5px 0;
+      font-size: 1.2rem;
+    }
+  }
+
+}
 
             </div>
         
